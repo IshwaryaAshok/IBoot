@@ -37,7 +37,7 @@ all: IBootLPC55s69_hello_world.axf
 IBootLPC55s69_hello_world.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"E:\Ishwarya\IBootRepo\IBootLPC55s69_hello_world\LPC55S69\mcuxpresso" -Xlinker -Map="IBootLPC55s69_hello_world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T IBootLPC55s69_hello_world_Debug.ld -o "IBootLPC55s69_hello_world.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"E:\Ishwarya\IBootRepo\IBoot\IBootLPC55s69_hello_world\LPC55S69\mcuxpresso" -Xlinker -Map="IBootLPC55s69_hello_world.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33 -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -T IBootLPC55s69_hello_world_Debug.ld -o "IBootLPC55s69_hello_world.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
