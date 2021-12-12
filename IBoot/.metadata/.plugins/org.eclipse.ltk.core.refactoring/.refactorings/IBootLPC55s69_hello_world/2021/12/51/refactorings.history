@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;IBootLPC55s69_hello_world/source/hello_world.c&apos; to &apos;IBoot.c&apos;" description="Rename resource &apos;hello_world.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/hello_world.c" name="IBoot.c" stamp="1639347710574" updateReferences="true"/>
-</session>
