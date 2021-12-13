@@ -409,3 +409,891 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/IBootLPC55s69
 
 !ENTRY org.eclipse.core.resources 2 10035 2021-12-12 15:41:10.177
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-12-12 15:42:46.625 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-12-12 15:42:54.931
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-12 15:43:34.268
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ISHWARYA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-12 16:01:27.031
+!MESSAGE Indexed 'IBootLPC55s69' (20 sources, 44 headers) in 2.99 sec: 6,053 declarations; 14,885 references; 3 unresolved inclusions; 50 syntax errors; 0 unresolved names (0%)
+!SESSION 2021-12-12 16:03:57.498 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-12 16:06:16.086
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ISHWARYA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-12-12 18:18:48.047 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-12 18:19:42.565
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ISHWARYA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-12-12 18:22:13.990
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getDelegate(DelegatingDebugTextHover.java:99)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:68)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-12-12 18:32:29.357
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-12-12 18:32:34.012 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-12-12 18:32:42.365
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-12 18:34:08.899
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ISHWARYA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-12-12 19:01:38.523 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-12 19:03:49.295
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ISHWARYA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2021-12-12 19:35:43.047
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerConsole$1@7f634934, thread Worker-28: Probe discovering for MCUXpresso IDE LinkServer (inc. CMSIS-DAP) probes will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2021-12-12 19:35:43.047
+!MESSAGE Worker-28: Probe discovering for MCUXpresso IDE LinkServer (inc. CMSIS-DAP) probes thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-28: Probe discovering for MCUXpresso IDE LinkServer (inc. CMSIS-DAP) probes
+	at java.management@11.0.10/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.10/sun.management.ThreadImpl.getThreadInfo(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:209)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:179)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4742)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerConsole.setConsoleColors(RedlinkServerConsole.java:234)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerConsole.createStreams(RedlinkServerConsole.java:228)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerConsole.out(RedlinkServerConsole.java:288)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerConsole.info(RedlinkServerConsole.java:283)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.openServer(RedlinkServerClient.java:783)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.<init>(RedlinkServerClient.java:176)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.<init>(RedlinkServerClient.java:165)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:147)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.getRedlinkServer(RedlinkServerClient.java:130)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.common.RedlinkServerEmuHandler.getRedlinkServerClient(RedlinkServerEmuHandler.java:117)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.common.RedlinkServerEmuHandler.bootRedlinkServer(RedlinkServerEmuHandler.java:97)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.common.RedlinkServerEmuHandler.bootProbe(RedlinkServerEmuHandler.java:87)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.win.AbstractWinServerProbe.bootProbe(AbstractWinServerProbe.java:58)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.EmulatorsDB.getEmulatorInfo(EmulatorsDB.java:179)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.EmulatorsDB.getAvailableEmulators(EmulatorsDB.java:128)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.emulators.TargetDiscovery.getAvailableEmulators(TargetDiscovery.java:498)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerLaunchConfigHandler.probeDiscovery(LinkServerLaunchConfigHandler.java:605)
+	at com.nxp.mcuxpresso.core.debug.launch.ProbeDiscoveryJob.run(ProbeDiscoveryJob.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2021-12-12 19:35:43.048
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:74)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UILockListener.aboutToWait(UILockListener.java:139)
+	at org.eclipse.core.internal.jobs.LockManager.aboutToWait(LockManager.java:109)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:1007)
+	at com.nxp.mcuxpresso.core.debug.launch.ProbesDialog.refresh(ProbesDialog.java:539)
+	at com.nxp.mcuxpresso.core.debug.launch.ProbesDialog.intializeWidgets(ProbesDialog.java:955)
+	at com.nxp.mcuxpresso.core.debug.launch.ProbesDialog.createButtonsForButtonBar(ProbesDialog.java:663)
+	at org.eclipse.jface.dialogs.Dialog.createButtonBar(Dialog.java:665)
+	at org.eclipse.jface.dialogs.TrayDialog.createButtonBar(TrayDialog.java:239)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:158)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.nxp.mcuxpresso.core.debug.launch.AbstractNXPLaunchConfigHandler.promptDiscovery(AbstractNXPLaunchConfigHandler.java:1251)
+	at com.nxp.mcuxpresso.core.debug.launch.AbstractNXPLaunchConfigHandler.createMissingLaunchConfigurations(AbstractNXPLaunchConfigHandler.java:1364)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerLaunchConfigHandler.createMissingLaunchConfigurations(LinkServerLaunchConfigHandler.java:468)
+	at com.nxp.mcuxpresso.core.debug.launch.ProbeLaunchShortcut.initialize(ProbeLaunchShortcut.java:336)
+	at com.nxp.mcuxpresso.core.debug.launch.ProbeLaunchShortcut.doLaunch(ProbeLaunchShortcut.java:279)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.ui.LinkServerCApplicationLaunchShortcut.launch(LinkServerCApplicationLaunchShortcut.java:36)
+	at com.nxp.mcuxpresso.core.debug.launch.ProbeLaunchShortcut.launch(ProbeLaunchShortcut.java:419)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runInternal(LaunchShortcutAction.java:83)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:135)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.jface.action.ActionContributionItem$$Lambda$503/0x00000008008a7840.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1046)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:760)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1209)
+	at org.eclipse.jface.action.ActionContributionItem$$Lambda$1297/0x0000000801364840.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$192/0x00000008003a4440.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@11.0.10/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.10/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base@11.0.10/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base@11.0.10/java.lang.reflect.Method.invoke(Unknown Source)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:35:43.053
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 19:35:43.085
+!MESSAGE RedlinkServer telnet session connected on port 3025->55462 @ 127.0.0.1
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:23.789
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:24.591
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:25.194
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:25.796
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:26.400
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:27.004
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:27.607
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:28.212
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:28.813
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:29.415
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:30.018
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:30.623
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:31.227
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:31.830
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:32.432
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:37:33.034
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2021-12-12 19:37:33.136
+!MESSAGE Telnet session connection timeout expired.
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:39:31.218
+!MESSAGE Stream is null in null
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:39:40.432
+!MESSAGE Exception
+!STACK 0
+java.lang.Exception: java.lang.NullPointerException
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.launch.NXPLaunchConfigUtils.doAnalytics(NXPLaunchConfigUtils.java:211)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerGdbLaunchDelegate.launch(LinkServerGdbLaunchDelegate.java:151)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:807)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:718)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.cdt.core.CCorePlugin.getCProjectDescription(CCorePlugin.java:881)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.load(ScannerConfigInfoFactory2.java:102)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2$ScannerConfigInfoSet.<init>(ScannerConfigInfoFactory2.java:96)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigInfoFactory2.createInfoSet(ScannerConfigInfoFactory2.java:1373)
+	at org.eclipse.cdt.make.internal.core.scannerconfig2.ScannerConfigProfileManager.createScannerConfigBuildInfo2Set(ScannerConfigProfileManager.java:223)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getContainer(CfgScannerConfigInfoFactory2.java:118)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.createMap(CfgScannerConfigInfoFactory2.java:144)
+	at org.eclipse.cdt.build.internal.core.scannerconfig2.CfgScannerConfigInfoFactory2$CfgInfo.getInfo(CfgScannerConfigInfoFactory2.java:83)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:433)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getContextInfo(CfgDiscoveredPathManager.java:418)
+	at org.eclipse.cdt.build.internal.core.scannerconfig.CfgDiscoveredPathManager.getDiscoveredInfo(CfgDiscoveredPathManager.java:168)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ProfileInfoProvider.getEntryValues(ProfileInfoProvider.java:68)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.getDiscoveredEntries(BuildEntryStorage.java:203)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildEntryStorage.putEntriesToLevel(BuildEntryStorage.java:193)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.initCache(AbstractEntryStorage.java:74)
+	at org.eclipse.cdt.core.settings.model.util.AbstractEntryStorage.getEntries(AbstractEntryStorage.java:37)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.BuildLanguageData.getEntries(BuildLanguageData.java:163)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.getEntriesToCopy(CDefaultLanguageData.java:100)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.createStore(CDefaultLanguageData.java:91)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultLanguageData.copySettingsFrom(CDefaultLanguageData.java:84)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.copySettingsFrom(CLanguageSettingCache.java:49)
+	at org.eclipse.cdt.internal.core.settings.model.CLanguageSettingCache.<init>(CLanguageSettingCache.java:38)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.copyLanguageData(CFolderDescriptionCache.java:82)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultFolderData.copyDataFrom(CDefaultFolderData.java:60)
+	at org.eclipse.cdt.internal.core.settings.model.CFolderDescriptionCache.<init>(CFolderDescriptionCache.java:40)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.copyFolderData(CConfigurationDescriptionCache.java:242)
+	at org.eclipse.cdt.core.settings.model.extension.impl.CDefaultConfigurationData.copySettingsFrom(CDefaultConfigurationData.java:117)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:154)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:510)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:240)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:636)
+	at org.eclipse.cdt.core.model.CoreModel.getProjectDescription(CoreModel.java:1384)
+	at com.nxp.mcuxpresso.core.datamodels.SDKChipVendorDatabase.getEntry(SDKChipVendorDatabase.java:964)
+	at com.nxp.mcuxpresso.core.debug.launch.NXPLaunchConfigUtils.doAnalytics(NXPLaunchConfigUtils.java:141)
+	... 6 more
+
+!ENTRY org.eclipse.core.jobs 2 2 2021-12-12 19:39:41.274
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2021-12-12 19:41:59.508 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-12 19:42:55.616
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ISHWARYA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:43:59.632
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 19:44:00.137
+!MESSAGE RedlinkServer telnet session connected on port 3025->56092 @ 127.0.0.1
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:44:22.691
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.crt.log 4 -1 2021-12-12 19:44:23.295
+!MESSAGE connect timed out
+!STACK 0
+java.lang.Exception: java.net.SocketTimeoutException: connect timed out
+	at com.crt.utils.general.Reporter.log(Reporter.java:580)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:306)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at com.nxp.mcuxpresso.core.debug.services.MCXTelnetService$2.run(MCXTelnetService.java:304)
+	... 1 more
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-12 19:44:23.402
+!MESSAGE Telnet session connected on port 3330->56116 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:44:28.593
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:44:29.017
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:44:29.515
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:44:29.629
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:44:29.723
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:44:29.812
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:46:24.394
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 19:46:24.899
+!MESSAGE RedlinkServer telnet session connected on port 3025->56190 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-12 19:46:39.938
+!MESSAGE Telnet session connected on port 3330->56233 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:46:42.219
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:46:42.505
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:46:43.258
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:46:43.390
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:46:43.476
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 19:46:43.560
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:01:32.506
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 20:01:33.012
+!MESSAGE RedlinkServer telnet session connected on port 3025->56278 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-12 20:01:54.821
+!MESSAGE Telnet session connected on port 3330->56282 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:01:57.300
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:01:57.627
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:01:58.001
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:01:58.100
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:01:58.194
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:01:58.276
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-12-12 20:04:22.449
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@788a9f98): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2021-12-12 20:04:22.449
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:05:00.658
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 20:05:01.165
+!MESSAGE RedlinkServer telnet session connected on port 3025->56283 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-12 20:05:14.542
+!MESSAGE Telnet session connected on port 3330->56287 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:05:16.651
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:05:16.939
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:05:17.186
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:05:17.268
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:05:17.347
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:05:17.429
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-12-12 20:05:40.802
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@3105e07e): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2021-12-12 20:05:40.802
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:15:19.659
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 20:15:20.180
+!MESSAGE RedlinkServer telnet session connected on port 3025->56319 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-12 20:15:32.912
+!MESSAGE Telnet session connected on port 3330->56323 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:15:35.549
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:15:35.828
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:15:36.113
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:15:36.204
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:15:36.290
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:15:36.378
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.debug.ui 4 120 2021-12-12 20:17:03.556
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.FutureTask.awaitDone(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.runInUIThreadWithTimeout(SelectedResourceManager.java:262)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getFromUI(SelectedResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.stringsubstitution.SelectedResourceManager.getActiveWindow(SelectedResourceManager.java:231)
+	at org.eclipse.debug.ui.DebugUITools.getDebugContext(DebugUITools.java:247)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getDelegate(DelegatingDebugTextHover.java:99)
+	at org.eclipse.cdt.debug.internal.ui.editors.DelegatingDebugTextHover.getHoverInfo2(DelegatingDebugTextHover.java:68)
+	at org.eclipse.cdt.internal.ui.text.c.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:149)
+	at org.eclipse.cdt.internal.ui.text.c.hover.CEditorTextHoverProxy.getHoverInfo2(CEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-12-12 20:17:08.519
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@40520de8): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2021-12-12 20:17:08.519
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:17:21.456
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 20:17:21.964
+!MESSAGE RedlinkServer telnet session connected on port 3025->56324 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-12 20:17:34.257
+!MESSAGE Telnet session connected on port 3330->56328 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:17:35.932
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:17:36.151
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:17:36.373
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:17:36.454
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:17:36.536
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:17:36.614
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:23:42.761
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 20:23:43.268
+!MESSAGE RedlinkServer telnet session connected on port 3025->56333 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-12 20:23:55.544
+!MESSAGE Telnet session connected on port 3330->56338 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:23:57.619
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:23:57.829
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:23:58.129
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:23:58.217
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:23:58.303
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:23:58.390
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-12-12 20:25:42.378
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@453eb8d2): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2021-12-12 20:25:42.378
+!MESSAGE Invalid context type.
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:28:24.447
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 20:28:24.954
+!MESSAGE RedlinkServer telnet session connected on port 3025->56342 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-12 20:28:38.238
+!MESSAGE Telnet session connected on port 3330->56346 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:28:40.287
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:28:40.533
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:28:40.771
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:28:40.906
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:28:40.993
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:28:41.078
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-12-12 20:32:51.379
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-12-12 20:32:51.379
+!MESSAGE 16: Target error from status-poll
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-12-12 20:32:51.379
+!MESSAGE Hardware Transfer Error
+!SUBENTRY 1 com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-12-12 20:32:51.379
+!MESSAGE Debugging context: IBootLPC55s69 LinkServer Debug
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-12-12 20:32:55.355
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@790c878d): Status ERROR: org.eclipse.cdt.dsf.gdb code=10004 Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1; java.lang.Exception: Stopping Thread 1 failed: T06thread:1;' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2021-12-12 20:32:55.355
+!MESSAGE Failed to execute MI command:
+-exec-interrupt
+Error message from debugger back end:
+Stopping Thread 1 failed: T06thread:1;
+!STACK 0
+java.lang.Exception: Stopping Thread 1 failed: T06thread:1;
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1014)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:843)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-12-12 20:32:56.233
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.service.GDBRunControl_7_0_NS$16@38dbe076): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2021-12-12 20:32:56.233
+!MESSAGE Connection is shut down
+
+!ENTRY com.crt.log 1 0 2021-12-12 20:32:56.643
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-12 20:32:57.149
+!MESSAGE RedlinkServer telnet session connected on port 3025->56349 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 4 0 2021-12-12 20:32:57.151
+!MESSAGE Unable to parse ProbeList output to get probe ref count: []

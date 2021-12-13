@@ -2786,6 +2786,13 @@ __STATIC_INLINE uint32_t SysTick_Config(uint32_t ticks)
   return (0UL);                                                     /* Function successful */
 }
 
+__STATIC_INLINE uint32_t SysTick_Disable(void)
+{
+	SysTick->LOAD  = 0UL;
+	SysTick->VAL   = 0UL;
+	SysTick->CTRL  &= (SysTick_CTRL_TICKINT_Msk | SysTick_CTRL_ENABLE_Msk);
+}
+
 #if defined (__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U)
 /**
   \brief   System Tick Configuration (non-secure)

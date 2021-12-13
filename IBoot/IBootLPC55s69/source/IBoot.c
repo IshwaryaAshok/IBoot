@@ -13,6 +13,10 @@
 #include "board.h"
 
 #include "fsl_power.h"
+
+
+
+//#include "IBoot_Systick.h"
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
@@ -45,9 +49,13 @@ int main(void)
     PRINTF("IBoot\r\n");
     PRINTF("Press any key to interrupt autoboot\r\n");
 
+
+    SysTick_Config(750);
+
     while (1)
     {
         ch = GETCHAR();
         PUTCHAR(ch);
+
     }
 }
