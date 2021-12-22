@@ -120,3 +120,48 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 !MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@37b4e4a0): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
 !SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2021-12-21 20:10:21.271
 !MESSAGE Invalid context type.
+!SESSION 2021-12-21 20:24:10.744 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-12-21 20:24:58.912
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ISHWARYA'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.crt.log 1 0 2021-12-21 20:35:45.886
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2021-12-21 20:35:46.397
+!MESSAGE RedlinkServer telnet session connected on port 3025->49707 @ 127.0.0.1
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2021-12-21 20:35:57.654
+!MESSAGE Telnet session connected on port 3330->49710 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2021-12-21 20:36:00.185
+!MESSAGE Genric ROM base address found in xml file: e00fe000
+
+!ENTRY com.crt.log 1 0 2021-12-21 20:36:00.522
+!MESSAGE Successfully identified 0x9 class component  Address e0040000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 0 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-21 20:36:00.931
+!MESSAGE Successfully identified 0x9 class component  Address e000e000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198533124 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-21 20:36:01.042
+!MESSAGE Successfully identified 0x9 class component  Address e0001000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529026 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-21 20:36:01.183
+!MESSAGE Successfully identified 0x9 class component  Address e0002000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529027 Revision = 0
+
+!ENTRY com.crt.log 1 0 2021-12-21 20:36:01.296
+!MESSAGE Successfully identified 0x9 class component  Address e0000000 CID1 = 144 PID0 = 33 PID1 = 189 PID2 = 11 PID3 = 0 DEVARCH = 1198529025 Revision = 0
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2021-12-21 20:36:41.016
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.ImmediateRequestMonitor@17127cfc): Status ERROR: org.eclipse.cdt.dsf.gdb code=10003 Invalid context type. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10003 2021-12-21 20:36:41.016
+!MESSAGE Invalid context type.

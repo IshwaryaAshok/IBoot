@@ -26,8 +26,7 @@
  * Variables
  ******************************************************************************/
 
-uint8_t txbuff[]   = "Usart polling example\r\nBoard will send back received characters\r\n";
-uint8_t rxbuff[20] = {0};
+uint8_t u8InterruptBoot = 0U;
 
 /*******************************************************************************
  * Code
@@ -39,6 +38,7 @@ int main(void)
 {
     uint8_t ch;
     usart_config_t config;
+    uint8_t *txData;
 
     /* set BOD VBAT level to 1.65V */
     POWER_SetBodVbatLevel(kPOWER_BodVbatLevel1650mv, kPOWER_BodHystLevel50mv, false);
@@ -63,7 +63,6 @@ int main(void)
 
     USART_Init(DEMO_USART, &config, DEMO_USART_CLK_FREQ);
 
-    USART_WriteBlocking(DEMO_USART, txbuff, sizeof(txbuff) - 1);
 
 #if 0
     while (1)
@@ -73,4 +72,29 @@ int main(void)
     }
 
 #endif
+
+    /* Lets check whether button is pressed or not, if not pressed jump to user application */
+    if (1U == u8InterruptBoot)
+    {
+
+    	txData = "Interrupting normal booting process\n";
+        USART_WriteBlocking(DEMO_USART, txData, sizeof(txData) - 1);
+
+
+  	  //we should continue in bootloader mode
+  	  //IBoot_uart_read_data();
+
+    }
+    else
+    {
+    	txData = "Jumping to user application\n";
+        USART_WriteBlocking(DEMO_USART, txData, sizeof(txData) - 1);
+
+  		//jump to user application
+  		//IBoot_jump_to_user_app();
+
+    }
+
+    while(1);
+
 }
